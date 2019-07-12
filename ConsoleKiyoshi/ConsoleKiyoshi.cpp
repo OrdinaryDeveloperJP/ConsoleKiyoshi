@@ -29,7 +29,8 @@ int main()
 		if (zundokoResult == "00001")
 		{
 			isEnd = true;
-			std::cout << "キ・ヨ・シ！";
+			std::cout << "キ・ヨ・シ！" << std::endl;
+			std::cout << "あなたは" << std::to_string(count) << "回目でキヨシになれました" << std::endl;
 		}
 	}
 
